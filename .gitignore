@@ -3,6 +3,7 @@
 Makefile
 config.h
 config.status
+.deps
 
 
 # Prerequisites
