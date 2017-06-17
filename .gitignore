@@ -33,6 +33,7 @@
 *.app
 
 
+Makefile
 
 # http://www.gnu.org/software/automake
 
