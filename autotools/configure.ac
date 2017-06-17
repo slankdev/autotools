@@ -14,6 +14,11 @@ AC_PROG_CC
 # Checks for libraries.
 
 # Checks for header files.
+AC_CHECK_HEADERS([pcap/pcap.h])
+AC_CHECK_HEADER([slankdev/hexdump.h])
+
+# Check for functions.
+AC_CHECK_FUNCS(slankdev::hexdump)
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_TYPE_UINT8_T
