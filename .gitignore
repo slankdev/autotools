@@ -1,6 +1,6 @@
 
 *.log
-# Makefile
+Makefile
 config.h
 config.status
 .deps
